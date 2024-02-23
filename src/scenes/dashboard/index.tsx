@@ -1,4 +1,4 @@
-import { Box, useMediaQuery, useTheme } from "@mui/material";
+import { Box, useMediaQuery } from "@mui/material";
 import A_Grid from "./A_Grid";
 import B_Grid from "./B_Grid";
 import C_Grid from "./C_Grid";
@@ -9,7 +9,6 @@ import G_Grid from "./G_Grid";
 import H_Grid from "./H_Grid";
 import I_Grid from "./I_Grid";
 import J_Grid from "./J_Grid";
-
 
 const gridTemplateLargeScreens = `
   "a b c"
@@ -57,11 +56,10 @@ const gridTemplateSmallScreens = `
   "j"
 `;
 
-type Props = {};
 
-const Dashboard = (props: Props) => {
+
+const Dashboard = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1200px)");
-  const { palette } = useTheme();
   return (
     <Box
       width={"100%"}

@@ -3,7 +3,7 @@ import { useGetTransactionsQuery } from "@/state/api";
 import { DataGrid, GridCellParams } from "@mui/x-data-grid";
 import BoxHeader from "@/components/BoxHeader";
 import Box from "@mui/material/Box";
-import { useTheme } from "@emotion/react";
+import { useTheme } from "@mui/material";
 
 
 const H_Grid = () => {

@@ -1,8 +1,6 @@
 import React from 'react';
 import FlexBetween from './FlexBetween';
-import { useTheme } from '@emotion/react';
-import { Typography, Box } from '@mui/material';
-import { Subtitle } from '@mui/icons-material'; // Fix the import typo
+import { Box, Typography, useTheme } from "@mui/material";
 
 type Props = {
     icon?: React.ReactNode;
