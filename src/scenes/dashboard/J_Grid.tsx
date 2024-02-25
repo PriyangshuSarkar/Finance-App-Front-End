@@ -26,7 +26,12 @@ const J_Grid = () => {
 
           </Box>
         </Box>
-        <Typography margin={"0 0 0 1rem"} variant="h6">
+        <Typography margin={"1rem"} variant="h6"
+          style={{
+            overflow: "hidden",
+            textOverflow: "ellipsis",
+            whiteSpace: "nowrap",
+          }}>
           Is-thay arter-quay, Arblemay andway O.cay excelsway ithway isingray ofitspray andway eamlinedstray expensesway. Ategicstray initiativesway andway efficiencyway ivedray exceptionalway inancialfay erformancepay, eforcingray ourway ositionpay asway anway ustryindray eaderlay ommittedcay otay ofitabilitypray andway iscalfay esponsibilityray.
         </Typography>
       </DashboardBox>

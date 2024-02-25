@@ -78,7 +78,7 @@ const D_Grid = () => {
             <Line
               yAxisId={"left"}
               type={"monotone"}
-              dataKey={"Non Operational Expenses"}
+              dataKey={"Non-Operational Expenses"}
               stroke={palette.tertiary[500]}
             />
             <Line
